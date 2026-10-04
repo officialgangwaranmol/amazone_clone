@@ -241,6 +241,91 @@ ul a{
     padding-top: 6px;
 
 }
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .nav-adress,
+    .nav-signin,
+    .nav-return {
+        display: none;
+    }
+
+    .nav-search {
+        width: 100%;
+        order: 2;
+    }
+
+    .panel-mid,
+    .panel-deals {
+        display: none;
+    }
+
+    .panel {
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+
+    .hero-section {
+        height: 230px;
+    }
+
+    .hero-message {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .shopping-section {
+        justify-content: space-evenly;
+    }
+
+    .box {
+        width: calc(50% - 16px);
+        height: auto;
+        min-height: 280px;
+        margin: 8px;
+        padding: 12px 0;
+    }
+
+    .box-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box-content h2 {
+        font-size: 18px;
+    }
+
+    .box1-image {
+        height: 170px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer-panel2 {
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .footer-panel2 ul {
+        width: 45%;
+    }
+
+    .pages {
+        padding: 15px 8px;
+    }
+}
+
 
 
 
